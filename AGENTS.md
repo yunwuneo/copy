@@ -1,6 +1,6 @@
 # 项目协作约定
 
-- 当前处于竞品调研和产品定义阶段。实现前先读 README、功能调研及后续获确认的规格。
+- 当前处于 macOS 实施阶段。继续工作前先读 README、完整规格和 docs/implementation-progress.md，并检查实际代码与测试。
 - 用户已确定：只做完整版；先完成 macOS 全部适用功能并验收，再实现 iOS/iPadOS。内部任务拆分不是日用版、MVP 或精简版发布目标。
 - 当前实施依据是 docs/product/product-spec-v1.md、implementation-plan-v1.md 和 acceptance-and-traceability.md；旧 implementation-outline.md 不再作为执行计划。
 - 规格中的系统版本、预算和技术选型是待验证的设计基线，不得把建议伪称为用户已确认或已实现。
