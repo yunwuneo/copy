@@ -4,10 +4,15 @@
 
 ## 当前阶段
 
-2026-10-15：完成仓库文档初始化及 Paste 官方公开资料调研。当前没有应用代码、Xcode 工程或可运行安装包。
+2026-10-15：完成竞品调研、完整产品功能规格、实施计划与验收基线。当前没有应用代码、Xcode 工程或可运行安装包。
+
+确定方向：**只做完整版；先完成 macOS 全部适用功能并验收，再开发 iOS/iPadOS。功能对标 Paste，UI 独立设计。** 内部任务拆分不代表另行发布精简产品。
 
 - [Paste 功能调研](docs/research/paste-feature-research.md)：功能矩阵、平台差异、权限、数据生命周期、商业模式、证据来源和待实测问题。
-- [产品实施建议](docs/product/implementation-outline.md)：基于调研提出的阶段划分和验收方向，尚非已确认的产品规格。
+- [完整产品功能规格 v1](docs/product/product-spec-v1.md)：24 个需求模块、独立 UI、内容与数据规则、权限、错误恢复及性能目标。
+- [完整实施计划 v1](docs/product/implementation-plan-v1.md)：T00–T29 共 30 项任务，先 Mac 后移动，两个完整交付门槛。
+- [功能对照与验收](docs/product/acceptance-and-traceability.md)：F01–F63 全量映射及 Q01–Q69 验收用例；当前均未执行。
+- [原实施建议入口](docs/product/implementation-outline.md)：已由上述 v1 文档取代。
 
 ## 工作原则
 
@@ -19,4 +24,4 @@
 
 ## 仓库
 
-现有远程：`git@github.com:yunwuneo/copy.git`。应用架构、最低系统版本、同步方案、分发方式和收费模式留待产品规格阶段确定。
+现有远程：`git@github.com:yunwuneo/copy.git`。系统门槛、技术路径与默认值详见功能规格的设计基线；这些属于本项目方案，仍须实施验证。收费方式尚未选定，不切割完整版功能。
