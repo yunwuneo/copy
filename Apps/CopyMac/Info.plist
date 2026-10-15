@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>dev.neo.Copy</string>
+<key>CFBundleName</key><string>Copy</string>
+<key>CFBundleDisplayName</key><string>Copy</string>
+<key>CFBundleExecutable</key><string>CopyMac</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.1.0</string>
+<key>CFBundleVersion</key><string>1</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>LSUIElement</key><true/>
+<key>NSHighResolutionCapable</key><true/>
+<key>NSPrincipalClass</key><string>NSApplication</string>
+<key>CFBundleDevelopmentRegion</key><string>zh-Hans</string>
+<key>CFBundleLocalizations</key><array><string>zh-Hans</string><string>en</string></array>
+<key>CFBundleURLTypes</key><array><dict><key>CFBundleURLName</key><string>dev.neo.Copy.navigation</string><key>CFBundleURLSchemes</key><array><string>copy</string></array></dict></array>
+<key>NSUserActivityTypes</key><array><string>CSSearchableItemActionType</string></array>
+</dict></plist>
